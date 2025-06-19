@@ -1,42 +1,30 @@
-import { Cloud, Code, Database, Globe, Smartphone, Zap } from "lucide-react";
+import { Cloud, Code, Database, Smartphone} from "lucide-react";
 
 export const SkillsSection = () => {
 	const skills = [
 		{
 			icon: Code,
 			title: "Frontend Development",
-			description: "React, Vue, TypeScript, Next.js, Tailwind CSS",
+			description: "Html, Css, Scss, Javascript Typescript React Nextjs Tailwind, Tanstack Query",
 			color: "from-blue-500 to-cyan-500",
 		},
 		{
 			icon: Database,
 			title: "Backend Development",
-			description: "Node.js, Python, PostgreSQL, MongoDB, Redis",
+			description: "Node.js, Nestjs, Redis, Graphql, Mysql, Postgresql, C#",
 			color: "from-green-500 to-emerald-500",
 		},
 		{
 			icon: Cloud,
 			title: "Cloud & DevOps",
-			description: "AWS, Docker, Kubernetes, CI/CD, Microservices",
+			description: "AWS, Docker, Linux",
 			color: "from-purple-500 to-pink-500",
 		},
 		{
 			icon: Smartphone,
 			title: "Mobile Development",
-			description: "React Native, Flutter, Progressive Web Apps",
+			description: "React Native, Progressive Web Apps",
 			color: "from-orange-500 to-red-500",
-		},
-		{
-			icon: Globe,
-			title: "Web Technologies",
-			description: "REST APIs, GraphQL, WebSockets, PWAs",
-			color: "from-teal-500 to-blue-500",
-		},
-		{
-			icon: Zap,
-			title: "Performance",
-			description: "Optimization, Caching, Load Balancing, Monitoring",
-			color: "from-yellow-500 to-orange-500",
 		},
 	];
 
@@ -53,7 +41,7 @@ export const SkillsSection = () => {
 					</p>
 				</div>
 
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 					{skills.map((skill, index) => {
 						const Icon = skill.icon;
 						return (
@@ -74,8 +62,6 @@ export const SkillsSection = () => {
 								<p className="text-gray-400 leading-relaxed">
 									{skill.description}
 								</p>
-
-								{/* Hover effect */}
 								<div
 									className={`absolute inset-0 bg-gradient-to-r ${skill.color} opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300`}
 								></div>

@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Download } from "lucide-react";
 import { ProgrammingScene3D } from "../3D/ProgrammingScene3D";
 
 export const HeroSection = () => {
@@ -10,24 +9,6 @@ export const HeroSection = () => {
 		if (element) {
 			element.scrollIntoView({ behavior: "smooth" });
 		}
-	};
-
-	const downloadCV = () => {
-		const link = document.createElement("a");
-		link.href = "/docs/cv-peter-dinis.pdf";
-		link.download = "Peter-Dinis-CV.pdf";
-		document.body.appendChild(link);
-		link.click();
-		document.body.removeChild(link);
-	};
-
-	const downloadEnCV = () => {
-		const link = document.createElement("a");
-		link.href = "/docs/cv-peter-dinis-en.pdf";
-		link.download = "Peter-Dinis-CV-EN.pdf";
-		document.body.appendChild(link);
-		link.click();
-		document.body.removeChild(link);
 	};
 
 	return (
@@ -196,7 +177,6 @@ export const HeroSection = () => {
 						</span>
 					</motion.p>
 
-					{/* Tech stack highlight */}
 					<motion.div
 						className="flex flex-wrap justify-center gap-3 mb-8"
 						initial={{ opacity: 0, y: 20 }}
@@ -255,26 +235,6 @@ export const HeroSection = () => {
 						>
 							<span className="font-mono">{"{ contact: true }"}</span>
 						</motion.button>
-
-						<motion.button
-							onClick={downloadCV}
-							className="px-8 py-4 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-lg font-semibold transition-transform duration-200 hover:shadow-lg hover:shadow-green-500/25 flex items-center gap-2"
-							whileHover={{ scale: 1.05 }}
-							whileTap={{ scale: 0.95 }}
-						>
-							<Download className="w-4 h-4" />
-							<span className="font-mono">Download CV</span>
-						</motion.button>
-
-						<motion.button
-							onClick={downloadEnCV}
-							className="px-8 py-4 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-lg font-semibold transition-transform duration-200 hover:shadow-lg hover:shadow-orange-500/25 flex items-center gap-2"
-							whileHover={{ scale: 1.05 }}
-							whileTap={{ scale: 0.95 }}
-						>
-							<Download className="w-4 h-4" />
-							<span className="font-mono">Download EN CV</span>
-						</motion.button>
 					</motion.div>
 				</div>
 				<motion.div
@@ -286,7 +246,6 @@ export const HeroSection = () => {
 					<ProgrammingScene3D />
 				</motion.div>
 
-				{/* Programming Stats */}
 				<motion.div
 					className="flex justify-center gap-8"
 					initial={{ opacity: 0, y: 30 }}
@@ -314,7 +273,6 @@ export const HeroSection = () => {
 				</motion.div>
 			</div>
 
-			{/* Enhanced scroll indicator */}
 			<motion.div
 				className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
 				animate={{ y: [0, 10, 0] }}

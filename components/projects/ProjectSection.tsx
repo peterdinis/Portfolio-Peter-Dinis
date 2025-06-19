@@ -6,6 +6,7 @@ import {
 	CardTitle,
 } from "@/components/ui/card";
 import { ExternalLink, Github } from "lucide-react";
+import Link from "next/link";
 
 export const ProjectsSection = () => {
 	const projects = [
@@ -140,7 +141,9 @@ export const ProjectsSection = () => {
 
 				<div className="text-center mt-12">
 					<button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transition-transform duration-200">
-						View All Projects
+						<Link href="https://github.com/peterdinis">
+							View All Projects
+						</Link>
 					</button>
 				</div>
 			</div>
