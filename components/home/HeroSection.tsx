@@ -14,7 +14,7 @@ export const HeroSection = () => {
 
 	const downloadCV = () => {
 		const link = document.createElement("a");
-		link.href = "/cv-peter-dinis.pdf";
+		link.href = "/docs/cv-peter-dinis.pdf";
 		link.download = "Peter-Dinis-CV.pdf";
 		document.body.appendChild(link);
 		link.click();
@@ -23,7 +23,7 @@ export const HeroSection = () => {
 
 	const downloadEnCV = () => {
 		const link = document.createElement("a");
-		link.href = "/cv-peter-dinis-en.pdf";
+		link.href = "/docs/cv-peter-dinis-en.pdf";
 		link.download = "Peter-Dinis-CV-EN.pdf";
 		document.body.appendChild(link);
 		link.click();
