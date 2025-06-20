@@ -7,64 +7,41 @@ import {
 } from "@/components/ui/card";
 import { ExternalLink, Github } from "lucide-react";
 import Link from "next/link";
-import { Badge } from "../ui/badge";
 
 export const ProjectsSection = () => {
 	const projects = [
 		{
-			title: "E-Commerce Platform",
-			description:
-				"Full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
-			technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Redis"],
-			image: "/placeholder.svg",
-			github: "#",
+			title: "Snake game",
+			description: "Snake game make with html css javascript",
+			technologies: ["Html", "Bootstrap 5", "Javascript"],
 			demo: "#",
-			status: "Production",
-		},
-		{
-			title: "Task Management SaaS",
-			description:
-				"Collaborative project management tool with real-time updates, team collaboration, and advanced analytics.",
-			technologies: ["Next.js", "TypeScript", "Prisma", "WebSockets", "AWS"],
-			image: "/placeholder.svg",
 			github: "#",
-			demo: "#",
-			status: "Beta",
 		},
-		{
-			title: "AI-Powered Analytics Dashboard",
-			description:
-				"Data visualization platform with machine learning insights, built with React and Python backend.",
-			technologies: ["React", "Python", "TensorFlow", "D3.js", "Docker"],
-			image: "/placeholder.svg",
-			github: "#",
-			demo: "#",
-			status: "Development",
-		},
-		{
-			title: "Mobile Banking App",
-			description:
-				"Secure mobile banking application with biometric authentication and real-time transaction processing.",
-			technologies: ["React Native", "Node.js", "MongoDB", "JWT", "Firebase"],
-			image: "/placeholder.svg",
-			github: "#",
-			demo: "#",
-			status: "Production",
-		},
-	];
 
-	const getStatusColor = (status: string) => {
-		switch (status) {
-			case "Production":
-				return "bg-green-500";
-			case "Beta":
-				return "bg-yellow-500";
-			case "Development":
-				return "bg-blue-500";
-			default:
-				return "bg-gray-500";
+		{
+			title: "Code editor",
+			description: "Simple code editor, for html, css, javascript written in React and Typescript",
+			technologies: ["React", "Vite", "Typescript", "Material UI"],
+			demo: "#",
+			github: "#"
+		},
+
+		{
+			title: "Podwave",
+			description: "App for listening podcasts",
+			technologies: ["Nextjs", "Typescript", "Podwave", "TawilindCss", "Convex"],
+			demo: "#",
+			github: "#"
+		},
+
+		{
+			title: "Docu Nest",
+			description: "App for writing notes with AI",
+			technologies: ["Nextjs", "Typescript", "Prisma", "NextUi", "TailwindCss", "Next-Auth"],
+			demo: "#",
+			github: "#"
 		}
-	};
+	];
 
 	return (
 		<section id="projects" className="py-20 bg-slate-800">
@@ -85,19 +62,6 @@ export const ProjectsSection = () => {
 							key={index}
 							className="bg-slate-900/50 border-slate-700 hover:border-slate-600 transition-all duration-300 group"
 						>
-							<div className="relative overflow-hidden rounded-t-lg">
-								<img
-									src={project.image}
-									alt={project.title}
-									className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
-								/>
-								<div
-									className={`absolute top-4 right-4 px-2 py-1 rounded-full text-xs font-semibold text-white`}
-								>
-									<Badge className={`font-semibold text-base leading-[140%] ${getStatusColor(project.status)}`}>{project.status}</Badge>
-								</div>
-							</div>
-
 							<CardHeader>
 								<CardTitle className="text-white text-xl">
 									{project.title}
