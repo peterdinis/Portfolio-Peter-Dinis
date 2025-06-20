@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/card";
 import { ExternalLink, Github } from "lucide-react";
 import Link from "next/link";
+import { Badge } from "../ui/badge";
 
 export const ProjectsSection = () => {
 	const projects = [
@@ -91,9 +92,9 @@ export const ProjectsSection = () => {
 									className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
 								/>
 								<div
-									className={`absolute top-4 right-4 px-2 py-1 rounded-full text-xs font-semibold text-white ${getStatusColor(project.status)}`}
+									className={`absolute top-4 right-4 px-2 py-1 rounded-full text-xs font-semibold text-white`}
 								>
-									{project.status}
+									<Badge className={`font-semibold text-base leading-[140%] ${getStatusColor(project.status)}`}>{project.status}</Badge>
 								</div>
 							</div>
 
