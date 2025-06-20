@@ -14,7 +14,6 @@ export const HeroSection = () => {
 	return (
 		<section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 overflow-hidden">
 			<div className="absolute inset-0">
-				{/* Matrix-style background */}
 				<div className="absolute inset-0 opacity-10">
 					<div
 						className="absolute top-0 left-0 w-full h-full bg-repeat opacity-30"
@@ -101,7 +100,6 @@ export const HeroSection = () => {
 					</motion.div>
 				</div>
 
-				{/* Glowing orbs */}
 				<motion.div
 					className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl"
 					animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.6, 0.3] }}
@@ -160,7 +158,7 @@ export const HeroSection = () => {
 							<span className="block bg-gradient-to-r from-blue-400 via-purple-500 to-green-400 bg-clip-text text-transparent">
 								Developer
 							</span>
-							<span className="block font-mono text-green-400">&gt;</span>
+							<span className="block font-mono text-green-400">/&gt;</span>
 						</h1>
 					</motion.div>
 
