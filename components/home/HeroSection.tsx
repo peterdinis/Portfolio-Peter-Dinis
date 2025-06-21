@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { ProgrammingScene3D } from "../3D/ProgrammingScene3D";
-import UnderConstruction from "../shared/UnderConstruction";
 
 export const HeroSection = () => {
 	const scrollToSection = (sectionId: string) => {
@@ -144,8 +143,6 @@ export const HeroSection = () => {
 							👨‍💻 Crafting Digital Solutions
 						</span>
 					</motion.div>
-					
-					<UnderConstruction />
 
 					<motion.div
 						initial={{ opacity: 0, y: 30 }}
