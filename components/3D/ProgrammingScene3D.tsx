@@ -6,7 +6,6 @@ import { ProgrammingSymbol } from "./ProgrammingSymbol";
 import { CodeParticles } from "./CodeParticles";
 import { GridBackground } from "./GridBackground";
 
-
 export const ProgrammingScene3D = () => {
 	const codeBlocks = [
 		{
