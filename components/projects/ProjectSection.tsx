@@ -40,6 +40,14 @@ export const ProjectsSection = () => {
 			technologies: ["Nextjs", "Typescript", "Prisma", "NextUi", "TailwindCss", "Next-Auth"],
 			demo: "#",
 			github: "#"
+		},
+
+		{
+			title: "Global sport steaming network",
+			description: "Application for watching sports and see sports scores",
+			technologies: ["Sveltekit", "Drizzle", "Tailwindcss", "Typescript", "ShadcnUi"],
+			demo: "#",
+			github: "#"
 		}
 	];
 
