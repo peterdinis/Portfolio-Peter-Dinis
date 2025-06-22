@@ -38,8 +38,8 @@ export const ProjectsSection = () => {
 			title: "Docu Nest",
 			description: "App for writing notes with AI",
 			technologies: ["Nextjs", "Typescript", "Prisma", "NextUi", "TailwindCss", "Next-Auth"],
-			demo: "#",
-			github: "#"
+			demo: "docu-nest.vercel.app",
+			github: "https://github.com/peterdinis/DocuNest"
 		},
 
 		{
@@ -48,6 +48,14 @@ export const ProjectsSection = () => {
 			technologies: ["Sveltekit", "Drizzle", "Tailwindcss", "Typescript", "ShadcnUi"],
 			demo: "#",
 			github: "https://github.com/peterdinis/Global-Sport-Site-Network"
+		},
+
+		{
+			title: "Interview Prep",
+			description: "Application for online mock interviews",
+			technologies: ["Nextjs", "Typescript", "Shadcn", "Tailwindcss", "Drizzle"],
+			demo: "#",
+			github: "https://github.com/peterdinis/Interview-Prep"
 		}
 	];
 
