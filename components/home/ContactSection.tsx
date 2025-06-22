@@ -3,16 +3,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Facebook, Github, Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
-import { Input } from "../ui/input";
-import { Label } from "../ui/label";
-import {
-	Select,
-	SelectContent,
-	SelectItem,
-	SelectTrigger,
-	SelectValue,
-} from "../ui/select";
-import { Textarea } from "../ui/textarea";
 
 export const ContactSection = () => {
 	return (
@@ -31,8 +21,8 @@ export const ContactSection = () => {
 					</p>
 				</div>
 
-				<div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-					<div className="lg:col-span-1">
+				<div className="max-w-6xl flex items-center justify-center mx-auto">
+					<div>
 						<Card className="bg-slate-800/50 border-slate-700 h-full">
 							<CardHeader>
 								<CardTitle className="text-white text-xl">
@@ -93,74 +83,6 @@ export const ContactSection = () => {
 										</Link>
 									</div>
 								</div>
-							</CardContent>
-						</Card>
-					</div>
-
-					<div className="lg:col-span-2">
-						<Card className="bg-slate-800/50 border-slate-700">
-							<CardHeader>
-								<CardTitle className="text-white text-xl">
-									Send a Message
-								</CardTitle>
-							</CardHeader>
-							<CardContent>
-								<form className="space-y-6">
-									<div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-										<div>
-											<Label className="block text-sm font-medium text-gray-300 mb-2">
-												Full Name
-											</Label>
-											<Input type="text" placeholder="Your name" />
-										</div>
-										<div>
-											<Label className="block text-sm font-medium text-gray-300 mb-2">
-												Email Address
-											</Label>
-											<Input
-												type="email"
-												placeholder="your.email@example.com"
-											/>
-										</div>
-									</div>
-
-									<div>
-										<Label className="block text-sm font-medium text-gray-300 mb-2">
-											Project Type
-										</Label>
-										<Select>
-											<SelectTrigger className="w-full">
-												<SelectValue placeholder="Select a project type" />
-											</SelectTrigger>
-											<SelectContent>
-												<SelectItem value="web">Web Application</SelectItem>
-												<SelectItem value="mobile">Mobile App</SelectItem>
-												<SelectItem value="ecommerce">
-													E-commerce Site
-												</SelectItem>
-												<SelectItem value="api">API Development</SelectItem>
-												<SelectItem value="other">Other</SelectItem>
-											</SelectContent>
-										</Select>
-									</div>
-
-									<div>
-										<Label className="block text-sm font-medium text-gray-300 mb-2">
-											Project Description
-										</Label>
-										<Textarea
-											placeholder="Tell me about your project..."
-											rows={4}
-										/>
-									</div>
-
-									<button
-										type="submit"
-										className="w-full py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transition-transform duration-200"
-									>
-										Send Message
-									</button>
-								</form>
 							</CardContent>
 						</Card>
 					</div>
