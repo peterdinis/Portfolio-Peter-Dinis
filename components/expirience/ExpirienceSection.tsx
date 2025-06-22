@@ -16,7 +16,16 @@ export const ExperienceSection = () => {
 			period: "March 2023 - May 2024",
 			description:
 				"Developed MVP from scratch and scaled to support rapid user growth. Built both web and mobile applications.",
-			technologies: ["React", "Typescript", "Spring Boot", "Twinzu", "Postgresql", "Mysql", "Docker", "AWS"],
+			technologies: [
+				"React",
+				"Typescript",
+				"Spring Boot",
+				"Twinzu",
+				"Postgresql",
+				"Mysql",
+				"Docker",
+				"AWS",
+			],
 		},
 		{
 			company: "Navysis - Brno",
@@ -24,7 +33,15 @@ export const ExperienceSection = () => {
 			period: "February 2022 - January 2023",
 			description:
 				"The company was creating an e-shop where licenses for software products can be sold. I could be a seller or a producer. I was able to create different relationships in the application (seller - manufacturer). After logging in to the application, the person was able to view various licenses, and then was able to purchase the given license from a specific person (Seller, Ressler, Distributor) Technologies that were used: Nx(Monorepo) Vuejs, Nestjs, Docker, Postgresql, Jest. I was in a small 7-member team that created that application.",
-			technologies: ["Nestjs", "Postgresql", "Sequelize", "Jest", "Nx", "Postgresql", "Docker"],
+			technologies: [
+				"Nestjs",
+				"Postgresql",
+				"Sequelize",
+				"Jest",
+				"Nx",
+				"Postgresql",
+				"Docker",
+			],
 		},
 		{
 			company: "Think Easy s.r.o",
@@ -38,8 +55,15 @@ export const ExperienceSection = () => {
 			company: "Frontend Developer",
 			position: "Fronted Developer, Think Easy s.r.o (Erasmus Project)",
 			period: "October 2019",
-			description: "Thanks to the Erasmus program, I had the opportunity to join Think Easy as a React developer. I was part of a 10‑member team. I used these technologies React Javascript Styled‑Components, Redux. I worked on applications for the company Carter s.r.o. (the company deals with printing).The application worked in such a way that the person who wanted to print something clicked on the link where the form was displayed, uploaded the necessary documents and through the backend and zoho hooks this information reached the Carter company employee.",
-			technologies: ["React", "Node.js", "Javascript", "Redux", "Styled-Components"],
+			description:
+				"Thanks to the Erasmus program, I had the opportunity to join Think Easy as a React developer. I was part of a 10‑member team. I used these technologies React Javascript Styled‑Components, Redux. I worked on applications for the company Carter s.r.o. (the company deals with printing).The application worked in such a way that the person who wanted to print something clicked on the link where the form was displayed, uploaded the necessary documents and through the backend and zoho hooks this information reached the Carter company employee.",
+			technologies: [
+				"React",
+				"Node.js",
+				"Javascript",
+				"Redux",
+				"Styled-Components",
+			],
 		},
 		{
 			company: "Fullstack Developer",
@@ -47,9 +71,16 @@ export const ExperienceSection = () => {
 			period: "September 2019 - July 2020",
 			description:
 				"A school competition organized by Unicorn, which has a branch in Prešov. My high school, which I attended, also got involved. It worked on the principle that the school chose a topic and an assigned worker from the unicorn company created the given application with the students. The frontend was made in React, the backend was Node.js and MongoDB (database) (the Unicorn company uses a modified version of react and node and mongo ). The result of almost a year's work was that a school library was created, where a student can borrow a book and return it. The teacher can do CRUD operations for books and categories and the admin (administrator) can give permissions to teachers (manage the library). I created the application myself",
-			technologies: ["React", "Uuapp", "Nodejs", "Javascript", "Bootstrap", "Jest", "MongoDB"],
+			technologies: [
+				"React",
+				"Uuapp",
+				"Nodejs",
+				"Javascript",
+				"Bootstrap",
+				"Jest",
+				"MongoDB",
+			],
 		},
-
 	];
 
 	return (

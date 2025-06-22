@@ -1,10 +1,10 @@
 "use client";
 
 import { Canvas } from "@react-three/fiber";
-import { FloatingCodeBlock } from "./FloatingCodeBlock";
-import { ProgrammingSymbol } from "./ProgrammingSymbol";
 import { CodeParticles } from "./CodeParticles";
+import { FloatingCodeBlock } from "./FloatingCodeBlock";
 import { GridBackground } from "./GridBackground";
+import { ProgrammingSymbol } from "./ProgrammingSymbol";
 
 export const ProgrammingScene3D = () => {
 	const codeBlocks = [

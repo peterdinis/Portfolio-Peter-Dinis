@@ -20,43 +20,69 @@ export const ProjectsSection = () => {
 
 		{
 			title: "Code editor",
-			description: "Simple code editor, for html, css, javascript written in React and Typescript",
+			description:
+				"Simple code editor, for html, css, javascript written in React and Typescript",
 			technologies: ["React", "Vite", "Typescript", "Material UI"],
 			demo: "https://react-code-editor-flame.vercel.app/",
-			github: "https://github.com/peterdinis/React-Code-Editor"
+			github: "https://github.com/peterdinis/React-Code-Editor",
 		},
 
 		{
 			title: "Podwave",
 			description: "App for listening podcasts",
-			technologies: ["Nextjs", "Typescript", "Podwave", "TawilindCss", "Convex"],
+			technologies: [
+				"Nextjs",
+				"Typescript",
+				"Podwave",
+				"TawilindCss",
+				"Convex",
+			],
 			demo: "podwave-tau.vercel.app",
-			github: "https://github.com/peterdinis/Podwave"
+			github: "https://github.com/peterdinis/Podwave",
 		},
 
 		{
 			title: "Docu Nest",
 			description: "App for writing notes with AI",
-			technologies: ["Nextjs", "Typescript", "Prisma", "NextUi", "TailwindCss", "Next-Auth"],
+			technologies: [
+				"Nextjs",
+				"Typescript",
+				"Prisma",
+				"NextUi",
+				"TailwindCss",
+				"Next-Auth",
+			],
 			demo: "docu-nest.vercel.app",
-			github: "https://github.com/peterdinis/DocuNest"
+			github: "https://github.com/peterdinis/DocuNest",
 		},
 
 		{
 			title: "Global sport steaming network",
 			description: "Application for watching sports and see sports scores",
-			technologies: ["Sveltekit", "Drizzle", "Tailwindcss", "Typescript", "ShadcnUi"],
+			technologies: [
+				"Sveltekit",
+				"Drizzle",
+				"Tailwindcss",
+				"Typescript",
+				"ShadcnUi",
+			],
 			demo: "#",
-			github: "https://github.com/peterdinis/Global-Sport-Site-Network"
+			github: "https://github.com/peterdinis/Global-Sport-Site-Network",
 		},
 
 		{
 			title: "Interview Prep",
 			description: "Application for online mock interviews",
-			technologies: ["Nextjs", "Typescript", "Shadcn", "Tailwindcss", "Drizzle"],
+			technologies: [
+				"Nextjs",
+				"Typescript",
+				"Shadcn",
+				"Tailwindcss",
+				"Drizzle",
+			],
 			demo: "#",
-			github: "https://github.com/peterdinis/Interview-Prep"
-		}
+			github: "https://github.com/peterdinis/Interview-Prep",
+		},
 	];
 
 	return (
@@ -122,9 +148,7 @@ export const ProjectsSection = () => {
 
 				<div className="text-center mt-12">
 					<button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transition-transform duration-200">
-						<Link href="https://github.com/peterdinis">
-							View All Projects
-						</Link>
+						<Link href="https://github.com/peterdinis">View All Projects</Link>
 					</button>
 				</div>
 			</div>

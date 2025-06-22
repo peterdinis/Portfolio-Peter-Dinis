@@ -1,11 +1,12 @@
-import { Cloud, Code, Database, Smartphone} from "lucide-react";
+import { Cloud, Code, Database, Smartphone } from "lucide-react";
 
 export const SkillsSection = () => {
 	const skills = [
 		{
 			icon: Code,
 			title: "Frontend Development",
-			description: "Html, Css, Scss, Javascript Typescript React Nextjs Tailwind, Tanstack Query",
+			description:
+				"Html, Css, Scss, Javascript Typescript React Nextjs Tailwind, Tanstack Query",
 			color: "from-blue-500 to-cyan-500",
 		},
 		{
