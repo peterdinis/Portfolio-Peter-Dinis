@@ -6,13 +6,13 @@ export const SkillsSection = () => {
 			icon: Code,
 			title: "Frontend Development",
 			description:
-				"Html, Css, Scss, Javascript Typescript React Nextjs Tailwind, Tanstack Query",
+				"Html, Css, Scss, Javascript, Typescript, React, Nextjs, TailwindCss, Tanstack Query",
 			color: "from-blue-500 to-cyan-500",
 		},
 		{
 			icon: Database,
 			title: "Backend Development",
-			description: "Node.js, Nestjs, Redis, Graphql, Mysql, Postgresql, C#",
+			description: "Node.js, Nestjs, Graphql, Mysql, Postgresql, C#",
 			color: "from-green-500 to-emerald-500",
 		},
 		{
