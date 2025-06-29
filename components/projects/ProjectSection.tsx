@@ -61,7 +61,7 @@ export const ProjectsSection = () => {
 			description: "Application for watching sports and see sports scores",
 			technologies: [
 				"Sveltekit",
-				"Drizzle",
+				"Drizzle ORM",
 				"Tailwindcss",
 				"Typescript",
 				"ShadcnUi",
@@ -78,7 +78,7 @@ export const ProjectsSection = () => {
 				"Typescript",
 				"Shadcn",
 				"Tailwindcss",
-				"Drizzle",
+				"Drizzle ORM",
 			],
 			demo: "#",
 			github: "https://github.com/peterdinis/Interview-Prep",
