@@ -233,6 +233,15 @@ export const HeroSection = () => {
 						>
 							<span className="font-mono">{"{ contact: true }"}</span>
 						</motion.button>
+
+						<motion.button
+							onClick={() => scrollToSection("expirience")}
+							className="px-8 py-4 bg-gradient-to-r from-green-600 to-cyan-600 text-white rounded-lg font-semibold transition-transform duration-200 hover:shadow-lg hover:shadow-green-500/25"
+							whileHover={{ scale: 1.05 }}
+							whileTap={{ scale: 0.95 }}
+						>
+							<span className="font-mono">{"{ Expirience: true }"}</span>
+						</motion.button>
 					</motion.div>
 				</div>
 				<motion.div
