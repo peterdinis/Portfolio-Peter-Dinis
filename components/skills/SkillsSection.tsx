@@ -56,7 +56,7 @@ export const SkillsSection = () => {
 									<Icon className="w-6 h-6 text-white" />
 								</div>
 
-								<h3 className="text-xl font-semibold text-white mb-2">
+								<h3 className="text-xl break-all font-semibold text-white mb-2">
 									{skill.title}
 								</h3>
 
