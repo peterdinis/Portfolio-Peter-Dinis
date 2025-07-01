@@ -100,6 +100,14 @@ export const ProjectsSection = () => {
 			demo: "#",
 			github: "https://github.com/peterdinis/Dev-Notes",
 		},
+
+		{
+			title: "Persona Link",
+			description: "Linkree clone",
+			technologies: ["Nextjs", "Typescript", "Tailwindcss", "lucia", "Drizzle ORM"],
+			demo: "#",
+			github: "https://github.com/peterdinis/Persona-Link"
+		}
 	];
 
 	return (
