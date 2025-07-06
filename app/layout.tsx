@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ScrollToTop } from "@/components/shared/ScrollToTop";
-import { Ubuntu } from 'next/font/google'
+import { Ubuntu } from "next/font/google";
 
 export const metadata: Metadata = {
 	title: "Peter Dinis | Full Stack Developer",
@@ -34,12 +34,12 @@ export const metadata: Metadata = {
 		type: "website",
 	},
 };
- 
+
 const ubuntu = Ubuntu({
-  weight: "500",
-  adjustFontFallback: true,
-  subsets: ["latin"]
-})
+	weight: "500",
+	adjustFontFallback: true,
+	subsets: ["latin"],
+});
 
 export default function RootLayout({
 	children,

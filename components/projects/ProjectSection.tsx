@@ -72,7 +72,8 @@ export const ProjectsSection = () => {
 
 		{
 			title: "Dev Notes",
-			description: "An all-in-one application providing everything a developer needs.",
+			description:
+				"An all-in-one application providing everything a developer needs.",
 			technologies: [
 				"Nextjs",
 				"Typescript",
@@ -81,7 +82,7 @@ export const ProjectsSection = () => {
 				"Drizzle ORM",
 				"TRPC",
 				"Websockets",
-				"Postgresql"
+				"Postgresql",
 			],
 			demo: "#",
 			github: "https://github.com/peterdinis/Dev-Notes",
@@ -90,9 +91,15 @@ export const ProjectsSection = () => {
 		{
 			title: "Persona Link",
 			description: "Linkree clone",
-			technologies: ["Nextjs", "Typescript", "Tailwindcss", "lucia", "Drizzle ORM"],
+			technologies: [
+				"Nextjs",
+				"Typescript",
+				"Tailwindcss",
+				"lucia",
+				"Drizzle ORM",
+			],
 			demo: "#",
-			github: "https://github.com/peterdinis/Persona-Link"
+			github: "https://github.com/peterdinis/Persona-Link",
 		},
 
 		{
@@ -100,8 +107,8 @@ export const ProjectsSection = () => {
 			description: "Backend API for my google application clone",
 			demo: "#",
 			technologies: ["Nestjs", "Prisma", "Typescript"],
-			github: "https://github.com/peterdinis/Doc-Space-Backend"
-		}
+			github: "https://github.com/peterdinis/Doc-Space-Backend",
+		},
 	];
 
 	return (
