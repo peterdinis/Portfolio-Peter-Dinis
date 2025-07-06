@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ScrollToTop } from "@/components/shared/ScrollToTop";
+import { Loader2 } from "lucide-react";
 import { Ubuntu } from "next/font/google";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
 	title: "Peter Dinis | Full Stack Developer",
@@ -36,9 +38,9 @@ export const metadata: Metadata = {
 };
 
 const ubuntu = Ubuntu({
-	weight: "500",
+	weight: "700",
 	adjustFontFallback: true,
-	subsets: ["latin"],
+	subsets: ["cyrillic"],
 });
 
 export default function RootLayout({
@@ -49,8 +51,10 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`antialiased ${ubuntu.className}`}>
-				{children}
-				<ScrollToTop />
+				<Suspense fallback={<Loader2 className="animate-spin w-8 h-8" />}>
+					{children}
+					<ScrollToTop />
+				</Suspense>
 			</body>
 		</html>
 	);
