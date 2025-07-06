@@ -57,20 +57,6 @@ export const ProjectsSection = () => {
 		},
 
 		{
-			title: "Global sport steaming network",
-			description: "Application for watching sports and see sports scores",
-			technologies: [
-				"Sveltekit",
-				"Drizzle ORM",
-				"Tailwindcss",
-				"Typescript",
-				"ShadcnUi",
-			],
-			demo: "#",
-			github: "https://github.com/peterdinis/Global-Sport-Site-Network",
-		},
-
-		{
 			title: "Interview Prep",
 			description: "Application for online mock interviews",
 			technologies: [
