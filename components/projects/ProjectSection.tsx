@@ -107,6 +107,14 @@ export const ProjectsSection = () => {
 			technologies: ["Nextjs", "Typescript", "Tailwindcss", "lucia", "Drizzle ORM"],
 			demo: "#",
 			github: "https://github.com/peterdinis/Persona-Link"
+		},
+
+		{
+			title: "Doc Space Backend",
+			description: "Backend API for my google application clone",
+			demo: "#",
+			technologies: ["Nestjs", "Prisma", "Typescript"],
+			github: "https://github.com/peterdinis/Doc-Space-Backend"
 		}
 	];
 
