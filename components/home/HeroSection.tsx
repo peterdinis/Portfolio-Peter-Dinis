@@ -231,7 +231,7 @@ export const HeroSection = () => {
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.95 }}
 						>
-							<span className="font-mono">{"{ contact: true }"}</span>
+							<span className="font-mono">{"<Contact />"}</span>
 						</motion.button>
 
 						<motion.button
@@ -240,7 +240,7 @@ export const HeroSection = () => {
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.95 }}
 						>
-							<span className="font-mono">{"{ Expirience: true }"}</span>
+							<span className="font-mono">{"<Expirience />"}</span>
 						</motion.button>
 					</motion.div>
 				</div>
