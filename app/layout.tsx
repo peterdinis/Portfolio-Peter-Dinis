@@ -51,10 +51,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={`antialiased ${ubuntu.className}`}>
-				<Suspense fallback={<Loader2 className="animate-spin w-8 h-8" />}>
-					{children}
-					<ScrollToTop />
-				</Suspense>
+				{children}
 			</body>
 		</html>
 	);
