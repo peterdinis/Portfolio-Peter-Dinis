@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ScrollToTop } from "@/components/shared/ScrollToTop";
-import { Loader2 } from "lucide-react";
 import { Ubuntu } from "next/font/google";
-import { Suspense } from "react";
+import { ScrollToTop } from "@/components/shared/ScrollToTop";
 
 export const metadata: Metadata = {
 	title: "Peter Dinis | Full Stack Developer",
@@ -52,6 +50,7 @@ export default function RootLayout({
 		<html lang="en">
 			<body className={`antialiased ${ubuntu.className}`}>
 				{children}
+				<ScrollToTop />
 			</body>
 		</html>
 	);
