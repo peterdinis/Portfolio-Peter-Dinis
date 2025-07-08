@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Ubuntu } from "next/font/google";
 import { ScrollToTop } from "@/components/shared/ScrollToTop";
+import { Ubuntu } from "next/font/google";
 
 export const metadata: Metadata = {
 	title: "Peter Dinis | Full Stack Developer",
