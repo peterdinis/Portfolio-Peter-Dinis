@@ -109,6 +109,14 @@ export const ProjectsSection = () => {
 			technologies: ["Nestjs", "Prisma", "Typescript"],
 			github: "https://github.com/peterdinis/Doc-Space-Backend",
 		},
+
+		{
+			title: "PDF Crafter",
+			description: "Application for building PDFs",
+			technologies: ["Nextjs", "typescript", "TailwindCss", "Shadcn"],
+			github: "https://github.com/peterdinis/PDF-Crafter",
+			demo: "https://pdf-crafter.vercel.app/"
+		}
 	];
 
 	return (
