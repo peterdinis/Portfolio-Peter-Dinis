@@ -115,8 +115,8 @@ export const ProjectsSection = () => {
 			description: "Application for building PDFs",
 			technologies: ["Nextjs", "typescript", "TailwindCss", "Shadcn"],
 			github: "https://github.com/peterdinis/PDF-Crafter",
-			demo: "https://pdf-crafter.vercel.app/"
-		}
+			demo: "https://pdf-crafter.vercel.app/",
+		},
 	];
 
 	return (
