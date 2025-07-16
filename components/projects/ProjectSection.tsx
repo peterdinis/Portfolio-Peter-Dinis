@@ -160,20 +160,20 @@ export const ProjectsSection = () => {
 								</div>
 
 								<div className="flex gap-4">
-									<a
+									<Link
 										href={project.github}
 										className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
 									>
 										<Github size={16} />
 										Code
-									</a>
-									<a
+									</Link>
+									<Link
 										href={project.demo}
 										className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
 									>
 										<ExternalLink size={16} />
 										Demo
-									</a>
+									</Link>
 								</div>
 							</CardContent>
 						</Card>
@@ -181,9 +181,7 @@ export const ProjectsSection = () => {
 				</div>
 
 				<div className="text-center mt-12">
-					<button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transition-transform duration-200">
-						<Link href="https://github.com/peterdinis">View All Projects</Link>
-					</button>
+					<Link className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transition-transform duration-200" href="https://github.com/peterdinis">View All Projects</Link>
 				</div>
 			</div>
 		</section>
