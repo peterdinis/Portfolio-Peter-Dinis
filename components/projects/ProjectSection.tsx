@@ -69,39 +69,6 @@ export const ProjectsSection = () => {
 			demo: "#",
 			github: "https://github.com/peterdinis/Interview-Prep",
 		},
-
-		{
-			title: "Dev Notes",
-			description:
-				"An all-in-one application providing everything a developer needs.",
-			technologies: [
-				"Nextjs",
-				"Typescript",
-				"Shadcn",
-				"Tailwindcss",
-				"Drizzle ORM",
-				"TRPC",
-				"Websockets",
-				"Postgresql",
-			],
-			demo: "#",
-			github: "https://github.com/peterdinis/Dev-Notes",
-		},
-
-		{
-			title: "Persona Link",
-			description: "Linkree clone",
-			technologies: [
-				"Nextjs",
-				"Typescript",
-				"Tailwindcss",
-				"lucia",
-				"Drizzle ORM",
-			],
-			demo: "#",
-			github: "https://github.com/peterdinis/Persona-Link",
-		},
-
 		{
 			title: "Doc Space Backend",
 			description: "Backend API for my google application clone",
