@@ -84,6 +84,14 @@ export const ProjectsSection = () => {
 			github: "https://github.com/peterdinis/PDF-Crafter",
 			demo: "https://pdf-crafter.vercel.app/",
 		},
+
+		{
+			title: "Task Flow",
+			description: "Application for managing tasks and projects",
+			technologies: ["Nextjs", "Typescript", "TailwindCss", "ShadcnUi", ],
+			github: "https://github.com/peterdinis/Task-Flow",
+			demo: "#"
+		},
 	];
 
 	return (

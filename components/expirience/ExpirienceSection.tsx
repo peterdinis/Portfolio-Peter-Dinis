@@ -5,7 +5,7 @@ export const ExperienceSection = () => {
 		{
 			company: "Meditorial - Prague",
 			position: "React Developer",
-			period: "October 2024 - Present",
+			period: "October 2024 - July 2025",
 			description:
 				"Development and modification of front-end internal applications",
 			technologies: ["React", "Typescript", "Tailwind", "Nextjs", "Docker"],
