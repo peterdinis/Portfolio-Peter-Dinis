@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 const ubuntu = Ubuntu({
 	weight: "700",
 	adjustFontFallback: true,
-	subsets: ["cyrillic"],
+	subsets: ["latin"],
 });
 
 export default function RootLayout({

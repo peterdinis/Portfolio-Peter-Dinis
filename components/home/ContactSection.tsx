@@ -46,7 +46,7 @@ export const ContactSection = () => {
 									</div>
 									<div>
 										<p className="text-gray-400 text-sm">Phone</p>
-										<p className="text-white">0950 460 254</p>
+										<p className="text-white">+421 950 460 254</p>
 									</div>
 								</div>
 
