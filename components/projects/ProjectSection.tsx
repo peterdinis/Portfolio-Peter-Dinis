@@ -88,9 +88,9 @@ export const ProjectsSection = () => {
 		{
 			title: "Task Flow",
 			description: "Application for managing tasks and projects",
-			technologies: ["Nextjs", "Typescript", "TailwindCss", "ShadcnUi", ],
+			technologies: ["Nextjs", "Typescript", "TailwindCss", "ShadcnUi"],
 			github: "https://github.com/peterdinis/Task-Flow",
-			demo: "#"
+			demo: "#",
 		},
 	];
 
@@ -156,7 +156,12 @@ export const ProjectsSection = () => {
 				</div>
 
 				<div className="text-center mt-12">
-					<Link className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transition-transform duration-200" href="https://github.com/peterdinis">View All Projects</Link>
+					<Link
+						className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transition-transform duration-200"
+						href="https://github.com/peterdinis"
+					>
+						View All Projects
+					</Link>
 				</div>
 			</div>
 		</section>
