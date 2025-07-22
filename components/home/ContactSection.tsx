@@ -13,10 +13,10 @@ export const ContactSection = () => {
 			<div className="container mx-auto px-6">
 				<div className="text-center mb-16">
 					<h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
-						Let's Work Together
+						Let&apos;s Work Together
 					</h2>
 					<p className="text-xl text-gray-400 max-w-2xl mx-auto">
-						Ready to bring your ideas to life? Get in touch and let's discuss
+						Ready to bring your ideas to life? Get in touch and let&apos;s discuss
 						your next project.
 					</p>
 				</div>

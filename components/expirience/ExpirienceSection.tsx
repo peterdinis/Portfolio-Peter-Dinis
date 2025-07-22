@@ -91,7 +91,7 @@ export const ExperienceSection = () => {
 						Professional Experience
 					</h2>
 					<p className="text-xl text-gray-400 max-w-2xl mx-auto">
-						My journey in software development and the impact I've made
+						My journey in software development and the impact I&apos;ve made
 					</p>
 				</div>
 

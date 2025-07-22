@@ -46,9 +46,7 @@ export const HeroSection = () => {
 							delay: 0.5,
 						}}
 					>
-						const skills = ["React", "Typescript", "Html", "Css", "Scss", "C#",
-						"Docker", "AWS", "Nestjs", "Javascript", "Git", "Graphql", "Figma",
-						"Nextjs", "TailwindCss", "Linux" ];
+						{`const skills = ["React", "Typescript", "Html", "Css", "Scss", "C#", "Docker", "AWS", "Nestjs", "Javascript", "Git", "Graphql", "Figma", "Nextjs", "TailwindCss", "Linux"];`}
 					</motion.div>
 					<motion.div
 						className="absolute bottom-40 left-20 text-purple-400/20 font-mono text-sm"
@@ -84,7 +82,7 @@ export const HeroSection = () => {
 							delay: 0.3,
 						}}
 					>
-						{'=> { code: "art" }'}
+						{"=> { code: \"art\" }"}
 					</motion.div>
 					<motion.div
 						className="absolute bottom-20 right-1/3 text-pink-400/20 font-mono text-sm"
@@ -171,6 +169,7 @@ export const HeroSection = () => {
 						Transforming ideas into powerful digital solutions through clean
 						code and innovative design.
 						<span className="block mt-2 text-blue-400 font-mono">
+							{/* eslint-disable-next-line react/no-unescaped-entities */}
 							{"// Building the future, one line at a time"}
 						</span>
 					</motion.p>
@@ -222,7 +221,7 @@ export const HeroSection = () => {
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.95 }}
 						>
-							<span className="font-mono">{"<ViewWork />"}</span>
+							<span className="font-mono">{`<ViewWork />`}</span>
 						</motion.button>
 
 						<motion.button
@@ -231,7 +230,7 @@ export const HeroSection = () => {
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.95 }}
 						>
-							<span className="font-mono">{"<Contact />"}</span>
+							<span className="font-mono">{`<Contact />`}</span>
 						</motion.button>
 
 						<motion.button
@@ -240,10 +239,11 @@ export const HeroSection = () => {
 							whileHover={{ scale: 1.05 }}
 							whileTap={{ scale: 0.95 }}
 						>
-							<span className="font-mono">{"<Expirience />"}</span>
+							<span className="font-mono">{`<Expirience />`}</span>
 						</motion.button>
 					</motion.div>
 				</div>
+
 				<motion.div
 					initial={{ opacity: 0, scale: 0.8 }}
 					animate={{ opacity: 1, scale: 1 }}
