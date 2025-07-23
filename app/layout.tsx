@@ -17,6 +17,8 @@ export const metadata: Metadata = {
 		"Frontend",
 		"Backend",
 		"Software Engineer",
+		"Fullstack Developer",
+		"Fullstack Development",
 	],
 	authors: [
 		{ name: "Peter Dinis", url: "https://portfolio-peter-dinis.vercel.app/" },
@@ -38,7 +40,7 @@ export const metadata: Metadata = {
 const ubuntu = Ubuntu({
 	weight: "700",
 	adjustFontFallback: true,
-	subsets: ["latin"],
+	subsets: ["latin-ext"],
 });
 
 export default function RootLayout({

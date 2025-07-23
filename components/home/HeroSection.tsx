@@ -82,7 +82,7 @@ export const HeroSection = () => {
 							delay: 0.3,
 						}}
 					>
-						{"=> { code: \"art\" }"}
+						{'=> { code: "art" }'}
 					</motion.div>
 					<motion.div
 						className="absolute bottom-20 right-1/3 text-pink-400/20 font-mono text-sm"

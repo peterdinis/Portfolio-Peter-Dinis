@@ -16,8 +16,8 @@ export const ContactSection = () => {
 						Let&apos;s Work Together
 					</h2>
 					<p className="text-xl text-gray-400 max-w-2xl mx-auto">
-						Ready to bring your ideas to life? Get in touch and let&apos;s discuss
-						your next project.
+						Ready to bring your ideas to life? Get in touch and let&apos;s
+						discuss your next project.
 					</p>
 				</div>
 
