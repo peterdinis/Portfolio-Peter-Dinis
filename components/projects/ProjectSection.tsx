@@ -80,7 +80,7 @@ export const ProjectsSection = () => {
 		{
 			title: "PDF Crafter",
 			description: "Application for building PDFs",
-			technologies: ["Nextjs", "typescript", "TailwindCss", "Shadcn"],
+			technologies: ["Nextjs", "typescript", "TailwindCss", "ShadcnUI"],
 			github: "https://github.com/peterdinis/PDF-Crafter",
 			demo: "https://pdf-crafter.vercel.app/",
 		},
@@ -88,7 +88,7 @@ export const ProjectsSection = () => {
 		{
 			title: "Task Flow",
 			description: "Application for managing tasks and projects",
-			technologies: ["Nextjs", "Typescript", "TailwindCss", "ShadcnUi"],
+			technologies: ["Nextjs", "Typescript", "TailwindCss", "ShadcnUI", "Supabase", "Drizzle ORM"],
 			github: "https://github.com/peterdinis/Task-Flow",
 			demo: "#",
 		},
