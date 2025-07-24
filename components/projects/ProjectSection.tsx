@@ -28,17 +28,18 @@ export const ProjectsSection = () => {
 		},
 
 		{
-			title: "Podwave",
-			description: "App for listening podcasts",
+			title: "CV-Vision",
+			description: "Application for analyzing CVs",
 			technologies: [
 				"Nextjs",
 				"Typescript",
-				"Podwave",
-				"TawilindCss",
-				"Convex",
+				"TailwindCss",
+				"ShadcnUI",
+				"OpenAI API",
+				"Server Actions"
 			],
-			demo: "podwave-tau.vercel.app",
-			github: "https://github.com/peterdinis/Podwave",
+			demo: "https://cv-vision-gzur.vercel.app/",
+			github: "https://github.com/peterdinis/CV-Vision"
 		},
 
 		{
