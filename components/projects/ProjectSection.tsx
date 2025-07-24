@@ -36,10 +36,10 @@ export const ProjectsSection = () => {
 				"TailwindCss",
 				"ShadcnUI",
 				"OpenAI API",
-				"Server Actions"
+				"Server Actions",
 			],
 			demo: "https://cv-vision-gzur.vercel.app/",
-			github: "https://github.com/peterdinis/CV-Vision"
+			github: "https://github.com/peterdinis/CV-Vision",
 		},
 
 		{
@@ -89,7 +89,14 @@ export const ProjectsSection = () => {
 		{
 			title: "Task Flow",
 			description: "Application for managing tasks and projects",
-			technologies: ["Nextjs", "Typescript", "TailwindCss", "ShadcnUI", "Supabase", "Drizzle ORM"],
+			technologies: [
+				"Nextjs",
+				"Typescript",
+				"TailwindCss",
+				"ShadcnUI",
+				"Supabase",
+				"Drizzle ORM",
+			],
 			github: "https://github.com/peterdinis/Task-Flow",
 			demo: "#",
 		},
