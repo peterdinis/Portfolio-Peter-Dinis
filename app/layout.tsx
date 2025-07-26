@@ -16,6 +16,7 @@ export const metadata: Metadata = {
 		"JavaScript Developer",
 		"Frontend",
 		"Backend",
+		"Dinis Peter",
 		"Software Engineer",
 		"Fullstack Developer",
 		"Fullstack Development",
@@ -38,7 +39,7 @@ export const metadata: Metadata = {
 };
 
 const ubuntu = Ubuntu({
-	weight: "700",
+	weight: "500",
 	adjustFontFallback: true,
 	subsets: ["latin-ext"],
 });
@@ -50,7 +51,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`antialiased ${ubuntu.className}`}>
+			<body className={`${ubuntu.className}`}>
 				{children}
 				<ScrollToTop />
 			</body>
