@@ -58,17 +58,19 @@ export const ProjectsSection = () => {
 		},
 
 		{
-			title: "Interview Prep",
-			description: "Application for online mock interviews",
+			title: "Box-Drop",
+			description: "Application for uploading files photos and other files, with option for sharing files with connected users",
 			technologies: [
 				"Nextjs",
 				"Typescript",
 				"Shadcn",
+				"Hono.js",
+				"Clerkjs",
 				"Tailwindcss",
 				"Drizzle ORM",
 			],
 			demo: "#",
-			github: "https://github.com/peterdinis/Interview-Prep",
+			github: "https://github.com/peterdinis/Box-Drop",
 		},
 		{
 			title: "Doc Space Backend",

@@ -252,32 +252,6 @@ export const HeroSection = () => {
 				>
 					<ProgrammingScene3D />
 				</motion.div>
-
-				<motion.div
-					className="flex justify-center gap-8"
-					initial={{ opacity: 0, y: 30 }}
-					animate={{ opacity: 1, y: 0 }}
-					transition={{ duration: 0.6, delay: 1.2 }}
-				>
-					<motion.div
-						className="text-center group cursor-pointer"
-						whileHover={{ scale: 1.1 }}
-					>
-						<div className="text-2xl font-bold text-green-400 font-mono">
-							50+
-						</div>
-						<div className="text-white/70 text-sm">Projects</div>
-					</motion.div>
-					<motion.div
-						className="text-center group cursor-pointer"
-						whileHover={{ scale: 1.1 }}
-					>
-						<div className="text-2xl font-bold text-yellow-400 font-mono">
-							3+
-						</div>
-						<div className="text-white/70 text-sm">Years</div>
-					</motion.div>
-				</motion.div>
 			</div>
 
 			<motion.div
