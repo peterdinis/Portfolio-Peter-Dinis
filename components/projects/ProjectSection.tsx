@@ -76,7 +76,7 @@ export const ProjectsSection = () => {
 			title: "Doc Space Backend",
 			description: "Backend API for my google application clone",
 			demo: "#",
-			technologies: ["Nestjs", "Prisma", "Typescript"],
+			technologies: ["Python Django", "Django Channels", "Sqlite"],
 			github: "https://github.com/peterdinis/Doc-Space-Backend",
 		},
 
@@ -102,6 +102,33 @@ export const ProjectsSection = () => {
 			github: "https://github.com/peterdinis/Task-Flow",
 			demo: "#",
 		},
+
+		{
+			title: "Lexicon",
+			description: "Application for taking notes, writing events to calendar and more",
+			technologies: [
+				"Nextjs",
+				"Typescript",
+				"Graphql",
+				"Shadcn UI"
+			],
+			github: "https://github.com/peterdinis/Lexicon",
+			demo: "#"
+		},
+
+
+		{
+			title: "Lexicon API",
+			description: "API for application Lexicon",
+			technologies: [
+				"Nestjs",
+				"Graphql",
+				"Typescript",
+				"Prisma"
+			],
+			github: "https://github.com/peterdinis/Lexicon-Backend",
+			demo: ""
+		}
 	];
 
 	return (
