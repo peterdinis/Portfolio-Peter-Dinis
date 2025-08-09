@@ -76,7 +76,7 @@ export const ProjectsSection = () => {
 			title: "Doc Space Backend",
 			description: "Backend API for my google application clone",
 			demo: "#",
-			technologies: ["Python Django", "Django Channels", "Sqlite"],
+			technologies: ["Python Django", "Django Rest Framework", "Django Channels", "Sqlite"],
 			github: "https://github.com/peterdinis/Doc-Space-Backend",
 		},
 
