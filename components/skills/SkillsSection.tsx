@@ -12,7 +12,7 @@ export const SkillsSection = () => {
 		{
 			icon: Database,
 			title: "Backend Development",
-			description: "Node.js, Nestjs, Graphql, Mysql, Postgresql, C#",
+			description: "Node.js, MongoDB, Nestjs, Graphql, Mysql, Postgresql, C#",
 			color: "from-green-500 to-emerald-500",
 		},
 		{
