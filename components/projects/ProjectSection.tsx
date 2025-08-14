@@ -59,7 +59,8 @@ export const ProjectsSection = () => {
 
 		{
 			title: "Box-Drop",
-			description: "Application for uploading files photos and other files, with option for sharing files with connected users",
+			description:
+				"Application for uploading files photos and other files, with option for sharing files with connected users",
 			technologies: [
 				"Nextjs",
 				"Typescript",
@@ -76,7 +77,12 @@ export const ProjectsSection = () => {
 			title: "Doc Space Backend",
 			description: "Backend API for my google application clone",
 			demo: "#",
-			technologies: ["Python Django", "Django Rest Framework", "Django Channels", "Sqlite"],
+			technologies: [
+				"Python Django",
+				"Django Rest Framework",
+				"Django Channels",
+				"Sqlite",
+			],
 			github: "https://github.com/peterdinis/Doc-Space-Backend",
 		},
 
@@ -105,30 +111,20 @@ export const ProjectsSection = () => {
 
 		{
 			title: "Lexicon",
-			description: "Application for taking notes, writing events to calendar and more",
-			technologies: [
-				"Nextjs",
-				"Typescript",
-				"Graphql",
-				"Shadcn UI"
-			],
+			description:
+				"Application for taking notes, writing events to calendar and more",
+			technologies: ["Nextjs", "Typescript", "Graphql", "Shadcn UI"],
 			github: "https://github.com/peterdinis/Lexicon",
-			demo: "#"
+			demo: "#",
 		},
-
 
 		{
 			title: "Lexicon API",
 			description: "API for application Lexicon",
-			technologies: [
-				"Nestjs",
-				"Graphql",
-				"Typescript",
-				"Prisma"
-			],
+			technologies: ["Nestjs", "Graphql", "Typescript", "Prisma"],
 			github: "https://github.com/peterdinis/Lexicon-Backend",
-			demo: ""
-		}
+			demo: "",
+		},
 	];
 
 	return (
