@@ -64,8 +64,7 @@ export const ProjectsSection = () => {
 			technologies: [
 				"Nextjs",
 				"Typescript",
-				"Shadcn",
-				"Hono.js",
+				"Shadcn UI",
 				"Clerkjs",
 				"Tailwindcss",
 				"Drizzle ORM",
