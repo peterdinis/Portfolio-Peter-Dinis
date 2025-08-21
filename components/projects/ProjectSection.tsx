@@ -69,7 +69,7 @@ export const ProjectsSection = () => {
 				"Tailwindcss",
 				"Drizzle ORM",
 			],
-			demo: "#",
+			demo: "https://box-drop-etkd.vercel.app/",
 			github: "https://github.com/peterdinis/Box-Drop",
 		},
 		{
