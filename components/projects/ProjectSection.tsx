@@ -72,18 +72,6 @@ export const ProjectsSection = () => {
 			demo: "https://box-drop-etkd.vercel.app/",
 			github: "https://github.com/peterdinis/Box-Drop",
 		},
-		{
-			title: "Doc Space Backend",
-			description: "Backend API for my google application clone",
-			demo: "#",
-			technologies: [
-				"Python Django",
-				"Django Rest Framework",
-				"Django Channels",
-				"Sqlite",
-			],
-			github: "https://github.com/peterdinis/Doc-Space-Backend",
-		},
 
 		{
 			title: "PDF Crafter",
@@ -91,38 +79,6 @@ export const ProjectsSection = () => {
 			technologies: ["Nextjs", "typescript", "TailwindCss", "ShadcnUI"],
 			github: "https://github.com/peterdinis/PDF-Crafter",
 			demo: "https://pdf-crafter.vercel.app/",
-		},
-
-		{
-			title: "Task Flow",
-			description: "Application for managing tasks and projects",
-			technologies: [
-				"Nextjs",
-				"Typescript",
-				"TailwindCss",
-				"ShadcnUI",
-				"Supabase",
-				"Drizzle ORM",
-			],
-			github: "https://github.com/peterdinis/Task-Flow",
-			demo: "#",
-		},
-
-		{
-			title: "Lexicon",
-			description:
-				"Application for taking notes, writing events to calendar and more",
-			technologies: ["Nextjs", "Typescript", "Graphql", "Shadcn UI"],
-			github: "https://github.com/peterdinis/Lexicon",
-			demo: "#",
-		},
-
-		{
-			title: "Lexicon API",
-			description: "API for application Lexicon",
-			technologies: ["Nestjs", "Graphql", "Typescript", "Prisma"],
-			github: "https://github.com/peterdinis/Lexicon-Backend",
-			demo: "",
 		},
 	];
 
