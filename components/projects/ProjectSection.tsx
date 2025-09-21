@@ -58,6 +58,15 @@ export const ProjectsSection = () => {
 		},
 
 		{
+			title: "Office to LibreOffice Converter",
+			description:
+				"Application for converting Office files to LibreOffice formats",
+			technologies: ["Python", "FastAPI Framework"],
+			github: "https://github.com/peterdinis/Office-To-LibreOffice-Converter",
+			demo: ""
+		},
+
+		{
 			title: "Box-Drop",
 			description:
 				"Application for uploading files photos and other files, with option for sharing files with connected users",
