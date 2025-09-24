@@ -43,18 +43,18 @@ export const ProjectsSection = () => {
 		},
 
 		{
-			title: "Docu Nest",
-			description: "App for writing notes with AI",
+			title: "Lexicon",
+			description: "App for writing notes ",
 			technologies: [
 				"Nextjs",
 				"Typescript",
-				"Prisma",
-				"NextUi",
-				"TailwindCss",
-				"Next-Auth",
+				"Convex",
+				"Shadcn UI",
+				"Tailwindcss",
+				"Clerk"
 			],
-			demo: "docu-nest.vercel.app",
-			github: "https://github.com/peterdinis/DocuNest",
+			demo: "#",
+			github: "https://github.com/peterdinis/Lexicon",
 		},
 
 		{
@@ -89,6 +89,7 @@ export const ProjectsSection = () => {
 			github: "https://github.com/peterdinis/PDF-Crafter",
 			demo: "https://pdf-crafter.vercel.app/",
 		},
+		
 	];
 
 	return (
