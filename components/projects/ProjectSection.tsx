@@ -51,7 +51,7 @@ export const ProjectsSection = () => {
 				"Convex",
 				"Shadcn UI",
 				"Tailwindcss",
-				"Clerk"
+				"Clerk",
 			],
 			demo: "#",
 			github: "https://github.com/peterdinis/Lexicon",
@@ -63,7 +63,7 @@ export const ProjectsSection = () => {
 				"Application for converting Office files to LibreOffice formats",
 			technologies: ["Python", "FastAPI Framework"],
 			github: "https://github.com/peterdinis/Office-To-LibreOffice-Converter",
-			demo: ""
+			demo: "",
 		},
 
 		{
@@ -89,7 +89,6 @@ export const ProjectsSection = () => {
 			github: "https://github.com/peterdinis/PDF-Crafter",
 			demo: "https://pdf-crafter.vercel.app/",
 		},
-		
 	];
 
 	return (
