@@ -19,6 +19,14 @@ export const ProjectsSection = () => {
 		},
 
 		{
+			title: "PDF-Tools",
+			description: "Simple app with lot of tools for working with PDFS",
+			technologies: ["Nextjs", "Server Actions", "Typescript", "QPDF", "Shadcn UI", "Tailwindcss"],
+			demo: "https://pdf-tools-pvi9.vercel.app/",
+			github: "https://github.com/peterdinis/PDF-Tools"
+		},
+
+		{
 			title: "Code editor",
 			description:
 				"Simple code editor, for html, css, javascript written in React and Typescript",
