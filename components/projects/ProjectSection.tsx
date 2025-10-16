@@ -10,13 +10,6 @@ import Link from "next/link";
 
 export const ProjectsSection = () => {
 	const projects = [
-		{
-			title: "Snake game",
-			description: "Snake game make with html css javascript",
-			technologies: ["Html", "Bootstrap 5", "Javascript"],
-			demo: "https://modest-elion-018f87.netlify.app/",
-			github: "https://github.com/peterdinis?tab=repositories",
-		},
 
 		{
 			title: "PDF-Tools",
@@ -73,6 +66,14 @@ export const ProjectsSection = () => {
 			github: "https://github.com/peterdinis/PDF-Crafter",
 			demo: "https://pdf-crafter.vercel.app/",
 		},
+
+		{
+			title: "Req Jet",
+			description: "Simple Post-man clone",
+			technologies: ["Nextjs", "Typescript", "Tailwindcss", "ShadcnUI", "Supabase"],
+			github: "https://github.com/peterdinis/Req-Jet",
+			demo: "https://req-jet.vercel.app/"
+		}
 	];
 
 	return (
