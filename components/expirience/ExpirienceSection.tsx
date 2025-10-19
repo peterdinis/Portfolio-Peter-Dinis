@@ -3,14 +3,6 @@ import { Briefcase, Calendar } from "lucide-react";
 export const ExperienceSection = () => {
 	const experiences = [
 		{
-			company: "IBA CZ",
-			position: "React Developer",
-			period: "Starting 3.11",
-			description:
-				"Added soon",
-			technologies: ["Added Soon"],
-		},
-		{
 			company: "Meditorial - Prague",
 			position: "React Developer",
 			period: "October 2024 - July 2025",
