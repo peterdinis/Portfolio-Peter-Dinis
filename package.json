@@ -10,12 +10,12 @@
 		"format": "pnpm biome check --write ."
 	},
 	"dependencies": {
-		"@react-three/fiber": "^9.3.0",
+		"@react-three/fiber": "^9.4.0",
 		"class-variance-authority": "^0.7.1",
 		"clsx": "^2.1.1",
-		"framer-motion": "^12.23.22",
+		"framer-motion": "^12.23.24",
 		"lucide-react": "^0.515.0",
-		"next": "^15.5.4",
+		"next": "^15.5.6",
 		"react": "^19.2.0",
 		"react-dom": "^19.2.0",
 		"tailwind-merge": "^3.3.1",
@@ -23,12 +23,12 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
-		"@tailwindcss/postcss": "^4.1.14",
-		"@types/node": "^20.19.19",
-		"@types/react": "^19.2.0",
-		"@types/react-dom": "^19.2.0",
+		"@tailwindcss/postcss": "^4.1.16",
+		"@types/node": "^20.19.23",
+		"@types/react": "^19.2.2",
+		"@types/react-dom": "^19.2.2",
 		"@types/three": "^0.177.0",
-		"tailwindcss": "^4.1.14",
+		"tailwindcss": "^4.1.16",
 		"typescript": "^5.9.3"
 	}
 }
