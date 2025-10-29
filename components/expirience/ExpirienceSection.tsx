@@ -99,15 +99,15 @@ export const ExperienceSection = () => {
 					{experiences.map((exp, index) => (
 						<div key={index} className="relative mb-12 last:mb-0">
 							{index !== experiences.length - 1 && (
-								<div className="absolute left-6 top-12 w-0.5 h-full bg-gradient-to-b from-blue-500 to-purple-600"></div>
+								<div className="absolute left-6 top-12 w-0.5 h-full bg-linear-to-b from-blue-500 to-purple-600"></div>
 							)}
 
 							<div className="flex items-start gap-6">
-								<div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
+								<div className="shrink-0 w-12 h-12 bg-linear-to-r from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
 									<Briefcase className="w-6 h-6 text-white" />
 								</div>
 
-								<div className="flex-grow bg-slate-800/50 rounded-xl p-6 border border-slate-700">
+								<div className="grow bg-slate-800/50 rounded-xl p-6 border border-slate-700">
 									<div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
 										<div>
 											<h3 className="text-xl font-semibold text-white mb-1">

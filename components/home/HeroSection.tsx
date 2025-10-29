@@ -34,7 +34,7 @@ export const HeroSection = () => {
 	];
 
 	return (
-		<section className="relative min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 overflow-hidden">
+		<section className="relative min-h-screen bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 overflow-hidden">
 			{/* Background floating blobs */}
 			<motion.div
 				className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl"
@@ -83,7 +83,7 @@ export const HeroSection = () => {
 			{/* Main container */}
 			<div className="relative z-10 container mx-auto px-6 py-20 text-center">
 				<motion.div
-					className="inline-block mb-6 px-4 py-2 bg-gradient-to-r from-blue-600/20 to-purple-600/20 rounded-full border border-blue-500/30"
+					className="inline-block mb-6 px-4 py-2 bg-linear-to-r from-blue-600/20 to-purple-600/20 rounded-full border border-blue-500/30"
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.6 }}
@@ -104,7 +104,7 @@ export const HeroSection = () => {
 						<span className="block text-blue-400 font-light text-2xl md:text-3xl mb-2">
 							Peter Dinis
 						</span>
-						<span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-green-400 font-semibold">
+						<span className="block text-transparent bg-clip-text bg-linear-to-r from-blue-400 via-purple-500 to-green-400 font-semibold">
 							<Typewriter
 								words={[
 									"Full Stack Developer",
@@ -142,7 +142,7 @@ export const HeroSection = () => {
 					{techStack.map((tech) => (
 						<motion.span
 							key={tech}
-							className="px-4 py-2 rounded-lg text-sm font-mono border border-blue-500/20 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent hover:from-purple-500 hover:to-green-400 transition-all duration-500"
+							className="px-4 py-2 rounded-lg text-sm font-mono border border-blue-500/20 bg-linear-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent hover:from-purple-500 hover:to-green-400 transition-all duration-500"
 							whileHover={{ scale: 1.1 }}
 						>
 							{tech}
@@ -159,7 +159,7 @@ export const HeroSection = () => {
 				>
 					<motion.button
 						onClick={() => scrollToSection("projects")}
-						className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold transition-transform duration-200 hover:shadow-lg hover:shadow-blue-500/25"
+						className="px-8 py-4 bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold transition-transform duration-200 hover:shadow-lg hover:shadow-blue-500/25"
 						whileHover={{ scale: 1.05 }}
 					>
 						<span className="font-mono">{`<ViewWork />`}</span>
@@ -175,7 +175,7 @@ export const HeroSection = () => {
 
 					<motion.button
 						onClick={() => scrollToSection("expirience")}
-						className="px-8 py-4 bg-gradient-to-r from-green-600 to-cyan-600 text-white rounded-lg font-semibold transition-transform duration-200 hover:shadow-lg hover:shadow-green-500/25"
+						className="px-8 py-4 bg-linear-to-r from-green-600 to-cyan-600 text-white rounded-lg font-semibold transition-transform duration-200 hover:shadow-lg hover:shadow-green-500/25"
 						whileHover={{ scale: 1.05 }}
 					>
 						<span className="font-mono">{`<Expirience />`}</span>

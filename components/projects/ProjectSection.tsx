@@ -139,7 +139,7 @@ export const ProjectsSection = () => {
 
 				<div className="text-center mt-12">
 					<Link
-						className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transition-transform duration-200"
+						className="px-8 py-4 bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:scale-105 transition-transform duration-200"
 						href="https://github.com/peterdinis"
 					>
 						View All Projects

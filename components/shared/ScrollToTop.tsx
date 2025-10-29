@@ -33,7 +33,7 @@ export const ScrollToTop = () => {
 			{isVisible && (
 				<motion.button
 					onClick={scrollToTop}
-					className="fixed bottom-8 right-8 z-50 w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full shadow-lg hover:shadow-xl hover:shadow-blue-500/25"
+					className="fixed bottom-8 right-8 z-50 w-12 h-12 bg-linear-to-r from-blue-600 to-purple-600 text-white rounded-full shadow-lg hover:shadow-xl hover:shadow-blue-500/25"
 					aria-label="Scroll to top"
 					initial={{ opacity: 0, scale: 0 }}
 					animate={{ opacity: 1, scale: 1 }}

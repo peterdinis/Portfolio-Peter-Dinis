@@ -48,10 +48,10 @@ export const SkillsSection = () => {
 						return (
 							<div
 								key={index}
-								className="group relative p-6 bg-gradient-to-br from-slate-800/50 to-slate-900/50 rounded-xl border border-slate-700/50 hover:border-slate-600 transition-all duration-300 hover:scale-105"
+								className="group relative p-6 bg-linear-to-br from-slate-800/50 to-slate-900/50 rounded-xl border border-slate-700/50 hover:border-slate-600 transition-all duration-300 hover:scale-105"
 							>
 								<div
-									className={`inline-flex p-3 rounded-lg bg-gradient-to-r ${skill.color} mb-4`}
+									className={`inline-flex p-3 rounded-lg bg-linear-to-r ${skill.color} mb-4`}
 								>
 									<Icon className="w-6 h-6 text-white" />
 								</div>
@@ -64,7 +64,7 @@ export const SkillsSection = () => {
 									{skill.description}
 								</p>
 								<div
-									className={`absolute inset-0 bg-gradient-to-r ${skill.color} opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300`}
+									className={`absolute inset-0 bg-linear-to-r ${skill.color} opacity-0 group-hover:opacity-10 rounded-xl transition-opacity duration-300`}
 								></div>
 							</div>
 						);

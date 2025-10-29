@@ -8,7 +8,7 @@ export const ContactSection = () => {
 	return (
 		<section
 			id="contact"
-			className="py-20 bg-gradient-to-b from-slate-900 to-slate-800"
+			className="py-20 bg-linear-to-b from-slate-900 to-slate-800"
 		>
 			<div className="container mx-auto px-6">
 				<div className="text-center mb-16">
