@@ -73,6 +73,14 @@ export const ProjectsSection = () => {
 			technologies: ["Nextjs", "Typescript", "Tailwindcss", "ShadcnUI", "Supabase"],
 			github: "https://github.com/peterdinis/Req-Jet",
 			demo: "https://req-jet.vercel.app/"
+		},
+
+		{
+			title: "Lexicon",
+			description: "Application for taking notes",
+			technologies: ["Nextjs Typescript Tailwindcss", "Server Actions", "Shadcn UI"],
+			github: "https://github.com/peterdinis/Lexicon",
+			demo: "lexicon-steel.vercel.app"
 		}
 	];
 
